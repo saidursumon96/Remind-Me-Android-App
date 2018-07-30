@@ -1,0 +1,24 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+   <PreferenceCategory
+       android:title="General">
+
+       <EditTextPreference
+           android:capitalize="words"
+           android:defaultValue="@string/pref_default_display_name"
+           android:inputType="textCapWords"
+           android:key="example_text"
+           android:summary="Set Your Display Name."
+           android:maxLines="1"
+           android:selectAllOnFocus="true"
+           android:singleLine="true"
+           android:title="@string/pref_title_display_name" />
+
+       <CheckBoxPreference
+           android:title="Background"
+           android:summary="Set Background Color - Grey. (Need to restart app)"
+           android:key="background_color"
+           android:defaultValue="false"/>
+
+   </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="245dp"
+        android:layout_gravity="center_horizontal">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/rl1">
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Credits"
+            android:id="@+id/tv1"
+            android:layout_below="@+id/rl1"
+            android:layout_centerHorizontal="true" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_below="@+id/tv1"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/rl2">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="------------------------------------------------------------------------"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_below="@+id/rl2"
+            android:layout_centerHorizontal="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Hey, i am just beginner in android app development."
+                android:id="@+id/textView3"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="I can learn it from some online resource. Specially"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="below links could help me."
+                android:layout_marginTop="47dp"
+                android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:layout_marginTop="70dp"
+            android:layout_below="@+id/rl2"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/rl3">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="*   Stackoverflow.Com (Listview &amp; Toolbar)"
+                android:id="@+id/textView33"
+                android:layout_marginLeft="50dp"
+                android:layout_alignParentTop="true" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_below="@+id/textView33"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/relativeLayout3">
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="*   Developer.android.Com  (BroadcastReceiver)"
+                android:layout_marginLeft="50dp"
+                android:id="@+id/textView4"
+                android:layout_below="@+id/relativeLayout3"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_below="@+id/textView4"
+                android:layout_centerHorizontal="true">
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="5dp"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="*   Google  (PreferenceActivity &amp; Layouts)"
+                android:id="@+id/textView5"
+                android:layout_below="@+id/textView4"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_below="@+id/textView5"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/relativeLayout4">
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="*   Github.Com (SQLite Database &amp; Search)"
+                android:id="@+id/textView6"
+                android:layout_marginLeft="50dp"
+                android:layout_below="@+id/relativeLayout4"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_below="@+id/textView6"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/relativeLayout5">
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="*   Youtube.Com (Intent Actions &amp; Icons)"
+                android:id="@+id/textView8"
+                android:layout_marginLeft="50dp"
+                android:layout_below="@+id/relativeLayout5"/>
+
+        </RelativeLayout>
+
+
+
+    </RelativeLayout>
+</LinearLayout>
